@@ -10,8 +10,8 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If Form1.message.Length = 0 Then
-            MsgBox("No help, sorry man.")
-        Else MsgBox("Message: " + Form1.message)
+            MsgBox("This computer has been locked by ScreenLocker." + Environment.NewLine + "The user has not left a help message.")
+        Else MsgBox("This computer has been locked by ScreenLocker." + Environment.NewLine + "Help message left by user: " + Form1.message)
         End If
     End Sub
 

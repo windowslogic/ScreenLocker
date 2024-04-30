@@ -12,7 +12,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        MsgBox("ScreenLocker v1.0.2 by Noxyntious" + Environment.NewLine + "Licensed under MIT")
+        MsgBox("ScreenLocker v1.3 by Eri/Noxyntious" + Environment.NewLine + "Licensed under MIT")
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
