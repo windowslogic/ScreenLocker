@@ -9,15 +9,15 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        If Form1.message.Length = 0 Then
-            MsgBox("This computer has been locked by ScreenLocker." + Environment.NewLine + "The user has not left a help message.")
-        Else MsgBox("This computer has been locked by ScreenLocker." + Environment.NewLine + "Help message left by user: " + Form1.message)
+        If Main.message.Length = 0 Then
+            MsgBox("This computer has been locked by ScreenLocker." + vbNewLine + "The user has not left a help message.")
+        Else MsgBox("This computer has been locked by ScreenLocker." + vbNewLine + "Help message left by user: " + Main.message)
         End If
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If TextBox1.Text = Form1.password Then
-            Form1.Close()
+        If TextBox1.Text = Main.password Then
+            Main.Close()
         Else MsgBox("Incorrect password!")
         End If
 

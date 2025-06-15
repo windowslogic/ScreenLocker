@@ -41,7 +41,7 @@ Partial Class LockUI
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(67, 105)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(305, 18)
+        Me.Label1.Size = New System.Drawing.Size(253, 15)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "This computer is in use and has been locked."
         '
@@ -51,9 +51,9 @@ Partial Class LockUI
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(68, 127)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(311, 18)
+        Me.Label2.Size = New System.Drawing.Size(278, 15)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Only DOMAIN\User can unlock this computer."
+        Me.Label2.Text = "Only the logged on user can unlock this computer."
         '
         'PictureBox2
         '
@@ -69,54 +69,54 @@ Partial Class LockUI
         '
         Me.PictureBox1.BackgroundImage = Global.ScreenLocker.My.Resources.Resources.Windows_10_Logo_svg
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(7, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(14, 8)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(414, 74)
+        Me.PictureBox1.Size = New System.Drawing.Size(477, 85)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(84, 159)
+        Me.TextBox1.Location = New System.Drawing.Point(70, 159)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox1.Size = New System.Drawing.Size(333, 22)
-        Me.TextBox1.TabIndex = 4
+        Me.TextBox1.Size = New System.Drawing.Size(349, 20)
+        Me.TextBox1.TabIndex = 0
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(8, 162)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(70, 16)
+        Me.Label3.Size = New System.Drawing.Size(56, 13)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "Password:"
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(342, 187)
+        Me.Button1.Location = New System.Drawing.Point(344, 189)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 6
+        Me.Button1.TabIndex = 3
         Me.Button1.Text = "Unlock"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(261, 187)
+        Me.Button2.Location = New System.Drawing.Point(263, 189)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 7
+        Me.Button2.TabIndex = 2
         Me.Button2.Text = "Help"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'CheckBox1
         '
         Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.Location = New System.Drawing.Point(11, 187)
+        Me.CheckBox1.Location = New System.Drawing.Point(12, 193)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(124, 20)
-        Me.CheckBox1.TabIndex = 8
+        Me.CheckBox1.Size = New System.Drawing.Size(101, 17)
+        Me.CheckBox1.TabIndex = 1
         Me.CheckBox1.Text = "Show password"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
@@ -124,7 +124,7 @@ Partial Class LockUI
         '
         Me.AcceptButton = Me.Button1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
-        Me.ClientSize = New System.Drawing.Size(425, 216)
+        Me.ClientSize = New System.Drawing.Size(431, 224)
         Me.ControlBox = False
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button2)
